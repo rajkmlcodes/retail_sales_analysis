@@ -246,7 +246,7 @@ GROUP BY peak_hod;
 ### Show all sales made between ₹500 and ₹1500
 ```sql
 SELECT *
-FROM sales_data
+FROM retail_sales
 WHERE total_sale BETWEEN 500 AND 1500
 ORDER BY total_sale DESC;
 ```
