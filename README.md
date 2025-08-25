@@ -48,7 +48,7 @@ SELECT * FROM retail_sales;
 SELECT COUNT(*) FROM retail_sales;
 ```
 
-## Data cleaning part starts from here and 
+## Data cleaning part starts from here
 ### Now checking if we have any null value (and in output i got 3 rows/id's with null values)
 ```sql
 SELECT * FROM retail_sales
@@ -96,7 +96,7 @@ WHERE
 SELECT COUNT(*) FROM retail_sales;
 ```
 
--- data exploration part starts here
+# Data exploration part starts here
 ### Find the total revenue generated
 ```sql
 SELECT sum(total_sale) AS total_revenue FROM retail_sales;
