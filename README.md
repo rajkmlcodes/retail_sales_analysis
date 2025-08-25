@@ -34,7 +34,7 @@ CREATE TABLE retail_sales
                 total_sale FLOAT
             );
 ```
-### Checking that our is created or not
+### Checking that our table is created or not
 ```sql
 SELECT * FROM retail_sales;
 ```
